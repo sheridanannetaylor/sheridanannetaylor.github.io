@@ -66,8 +66,8 @@ env.locale = conf.get("LOCALE", "en_US.UTF-8")
 env.num_workers = conf.get("NUM_WORKERS",
                            "multiprocessing.cpu_count() * 2 + 1")
 
-env.secret_key = conf.get("SECRET_KEY", "SECRET_KEY")
-env.nevercache_key = conf.get("NEVERCACHE_KEY", "NEVERCACHE_KEY")
+env.secret_key = conf.get("SECRET_KEY", "z62xve_g^dvol4_8$4u92cq0^v(x8o2miuoaudq8d5woqc7%e")
+env.nevercache_key = conf.get("NEVERCACHE_KEY", "m^s)^a1nu(w8hj2_b&$@0-x0&j!^=#+@g6ek$6s@q68x2@2jvp")
 
 # Remote git repos need to be "bare" and reside separated from the project
 if env.deploy_tool == "git":
